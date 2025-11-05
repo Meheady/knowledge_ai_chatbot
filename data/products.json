@@ -6,5 +6,157 @@
     "price": 799,
     "category": "Women > Shirts",
     "stock": 25
+  },
+  {
+    "id": "p002",
+    "title": "পুরুষদের পোলো টি-শার্ট",
+    "description": "১০০% কটন, কলার সহ। রং: সাদা, কালো, নীল। মাপ: M, L, XL।",
+    "price": 649,
+    "category": "Men > T-Shirts",
+    "stock": 40
+  },
+  {
+    "id": "p003",
+    "title": "বেবি গার্ল ফ্রক",
+    "description": "নরম ফ্যাব্রিক, ফুল প্রিন্ট। বয়স: ৬ মাস–২ বছর।",
+    "price": 449,
+    "category": "Kids > Girls",
+    "stock": 18
+  },
+  {
+    "id": "p004",
+    "title": "জিন্স প্যান্ট (মহিলা)",
+    "description": "স্লিম ফিট, হাই-ওয়েস্ট। মাপ: ২৮, ৩০, ৩২।",
+    "price": 1199,
+    "category": "Women > Jeans",
+    "stock": 15
+  },
+  {
+    "id": "p005",
+    "title": "চেক শার্ট (পুরুষ)",
+    "description": "ফুল স্লিভ, কটন ব্লেন্ড। রং: লাল-কালো চেক।",
+    "price": 899,
+    "category": "Men > Shirts",
+    "stock": 30
+  },
+  {
+    "id": "p006",
+    "title": "স্পোর্টস শু (পুরুষ)",
+    "description": "লাইটওয়েট, রাবার সোল। মাপ: ৭, ৮, ৯, ১০।",
+    "price": 1499,
+    "category": "Footwear > Men",
+    "stock": 22
+  },
+  {
+    "id": "p007",
+    "title": "সালোয়ার কামিজ সেট",
+    "description": "জর্জেট কাপড়, এমব্রয়ডারি কাজ। ফ্রি সাইজ।",
+    "price": 1799,
+    "category": "Women > Ethnic",
+    "stock": 12
+  },
+  {
+    "id": "p008",
+    "title": "কিডস জ্যাকেট",
+    "description": "শীতের জন্য হুডি জ্যাকেট। বয়স: ৪–৮ বছর।",
+    "price": 699,
+    "category": "Kids > Winter",
+    "stock": 20
+  },
+  {
+    "id": "p009",
+    "title": "লেদার ওয়ালেট (পুরুষ)",
+    "description": "অরিজিনাল লেদার, ৬টি কার্ড স্লট।",
+    "price": 549,
+    "category": "Accessories > Men",
+    "stock": 35
+  },
+  {
+    "id": "p010",
+    "title": "স্কার্ফ (মহিলা)",
+    "description": "১০০% ভিসকোজ, ৫টি রঙ। দৈর্ঘ্য: ১৮০ সেমি।",
+    "price": 299,
+    "category": "Accessories > Women",
+    "stock": 50
+  },
+  {
+    "id": "p011",
+    "title": "ফর্মাল শু (পুরুষ)",
+    "description": "কালো চামড়া, লেস-আপ। মাপ: ৮, ৯, ১০।",
+    "price": 1899,
+    "category": "Footwear > Formal",
+    "stock": 10
+  },
+  {
+    "id": "p012",
+    "title": "পাঞ্জাবি (পুরুষ)",
+    "description": "কটন, সাদা এমব্রয়ডারি। মাপ: ৪০, ৪২।",
+    "price": 1299,
+    "category": "Men > Ethnic",
+    "stock": 25
+  },
+  {
+    "id": "p013",
+    "title": "লেগিংস (মহিলা)",
+    "description": "স্ট্রেচেবল, অ্যাঙ্কল লেংথ। রং: কালো, ধূসর।",
+    "price": 399,
+    "category": "Women > Bottoms",
+    "stock": 45
+  },
+  {
+    "id": "p014",
+    "title": "বেবি বয় রোম্পার",
+    "description": "কটন, কার্টুন প্রিন্ট। বয়স: ০–১২ মাস।",
+    "price": 349,
+    "category": "Kids > Boys",
+    "stock": 28
+  },
+  {
+    "id": "p015",
+    "title": "হুডি সোয়েটশার্ট",
+    "description": "ফ্লিস ভিতরে, জিপার সহ। মাপ: S–XXL।",
+    "price": 949,
+    "category": "Unisex > Winter",
+    "stock": 33
+  },
+  {
+    "id": "p016",
+    "title": "সানগ্লাস (ইউনিসেক্স)",
+    "description": "UV প্রোটেকশন, পোলারাইজড লেন্স।",
+    "price": 799,
+    "category": "Accessories > Eyewear",
+    "stock": 40
+  },
+  {
+    "id": "p017",
+    "title": "ক্যাজুয়াল ব্যাকপ্যাক",
+    "description": "২০ লিটার, ল্যাপটপ কম্পার্টমেন্ট।",
+    "price": 1199,
+    "category": "Bags > Backpack",
+    "stock": 18
+  },
+  {
+    "id": "p018",
+    "title": "মেয়েদের স্যান্ডেল",
+    "description": "ফ্ল্যাট, কুশনড সোল। মাপ: ৫–৮।",
+    "price": 599,
+    "category": "Footwear > Women",
+    "stock": 30
+  },
+  {
+    "id": "p019",
+    "title": "কফি মগ (সিরামিক)",
+    "description": "৩৫০ মিলি, মাইক্রোওয়েভ সেফ।",
+    "price": 249,
+    "category": "Home > Kitchen",
+    "stock": 60
+  },
+  {
+    "id": "p020",
+    "title": "ফিটনেস ট্র্যাকার ব্যান্ড",
+    "description": "হার্ট-রেট মনিটর, ৭ দিন ব্যাটারি।",
+    "price": 2199,
+    "category": "Electronics > Wearable",
+    "stock": 15
   }
 ]

@@ -4,6 +4,7 @@ uvicorn
 
 # --- LangChain & Embeddings ---
 langchain
+langchain_core
 langchain-community
 langchain-huggingface
 sentence-transformers
