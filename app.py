@@ -24,7 +24,7 @@ retriever = db.as_retriever()
 
 # LLM সেটআপ (OpenAI / HuggingFace model)
 qa = RetrievalQA.from_chain_type(
-    llm=OpenAI(api_key=os.getenv("OPENAI_API_KEY"), model="gpt-4"),
+    llm=OpenAI(api_key=os.getenv("API_KEY"), model="gpt-4"),
     retriever=retriever
 )
 
