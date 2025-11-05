@@ -1,9 +1,19 @@
+# --- Core Framework ---
 fastapi
 uvicorn
+
+# --- LangChain & Embeddings ---
 langchain
-langchain_community
-faiss-cpu
+langchain-community
+langchain-huggingface
 sentence-transformers
+faiss-cpu
+tiktoken
+
+# --- Utilities ---
 python-dotenv
-langchain_text_splitters
-langchain_huggingface
+openai
+
+# --- Document Loading / Parsing ---
+unstructured
+unstructured[local-inference]
