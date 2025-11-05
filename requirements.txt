@@ -1,6 +1,9 @@
 fastapi
 uvicorn
 langchain
+langchain_community
 faiss-cpu
 sentence-transformers
 python-dotenv
+langchain_text_splitters
+langchain_huggingface
