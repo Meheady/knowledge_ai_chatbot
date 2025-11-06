@@ -9,7 +9,7 @@ load_dotenv()
 
 token = os.environ["GITHUB_TOKEN"]
 endpoint = "https://models.github.ai/inference"
-model = "gpt-3.5"
+model = "openai/gpt-4.1-mini"
 
 client = OpenAI(
     base_url=endpoint,
@@ -22,12 +22,16 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-
 db = FAISS.load_local("vectorstore", embeddings, allow_dangerous_deserialization=True)
 
 # 1️⃣ FAISS retrieval
-query = "লেডিজ কটন শার্ট-এর stock কত?"
+query = "পাঞ্জাবি (পুরুষ) price কত?"
 results = db.similarity_search(query, k=3)  # top 3 context
 
 # Combine context into one string
-context_text = "\n".join([f"- {r.metadata['title']}: {r.metadata['description']}" for r in results])
+context_text = "\n".join([
+    f"- {r.metadata['title']}: {r.metadata['description']} | Price: {r.metadata['price']} | Stock: {r.metadata['stock']}"
+    for r in results
+])
 
+print("Context for LLM:\n", context_text)
 # 2️⃣ Prepare messages for GitHub GPT-5
 messages = [
     {"role": "system", "content": "You are a helpful assistant for an e-commerce chatbot."},
