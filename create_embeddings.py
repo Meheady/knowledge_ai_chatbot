@@ -20,7 +20,7 @@ for item in data:
     metadatas.append(item)          # keep the whole record as metadata
 
 # 3. Choose an embedding model
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 
 
 # 5. Create the FAISS index

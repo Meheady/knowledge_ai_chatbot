@@ -25,7 +25,7 @@ def query_product(query, top_k=2):
 # -----------------------------
 # 3. Test queries
 # -----------------------------
-query1 = "লেডিজ কটন শার্ট"
+query1 = "শার্ট"
 query2 = "Women Shirts"
 
 print("Query 1 →", query_product(query1))

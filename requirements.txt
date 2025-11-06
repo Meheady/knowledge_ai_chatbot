@@ -14,6 +14,7 @@ tiktoken
 # --- Utilities ---
 python-dotenv
 openai
+github-ai
 
 # --- Document Loading / Parsing ---
 unstructured
