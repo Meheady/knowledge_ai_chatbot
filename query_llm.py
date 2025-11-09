@@ -18,7 +18,7 @@ client = OpenAI(
 
 
 # Load embeddings + FAISS index
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+embeddings = HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-small")
 db = FAISS.load_local("vectorstore", embeddings, allow_dangerous_deserialization=True)
 
 # 1️⃣ FAISS retrieval
